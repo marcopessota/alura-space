@@ -1,5 +1,6 @@
 import { Fragment } from "react"
 import Header from "../../components/header"
+import Footer from "../../components/footer"
 import Menu from "../../components/menu"
 import Banner from "../../components/banner"
 import styles from "./Home.module.scss"
@@ -14,6 +15,7 @@ export default function HomePage(){
                     <Banner />
                 </section>
             </main>
+            <Footer />
         </Fragment>
     )
 }
